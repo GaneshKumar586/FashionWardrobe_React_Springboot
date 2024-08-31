@@ -3,6 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+build/
+*.jar
+*.war
+*.ear
 
 ### STS ###
 .apt_generated
@@ -31,3 +35,16 @@ build/
 
 ### VS Code ###
 .vscode/
+# Operating System files
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Environment files
+.env
